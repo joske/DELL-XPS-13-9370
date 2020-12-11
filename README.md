@@ -2,7 +2,7 @@
 
 OpenCore 0.6.4 EFI files for the Dell XPS 13 9370
 
-* i7 8556U FHD non-touch
+* i7 8550U FHD non-touch
 * 16GB RAM
 * 512 GB skhynix NVMe SSD
 * realtek WiFi (soldered)
