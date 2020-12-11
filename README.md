@@ -11,9 +11,9 @@ OpenCore 0.6.4 EFI files for the Dell XPS 13 9370
 * Boots fine
 * Video acceleration
 * touchpad + gestures
+* Onboard audio (USB & HDMI audio also work)
 
 ## What doesn't (yet)
-* Onboard audio (USB & HDMI audio work)
 * brightness keys (brightness in general doesn't do anything)
 * WiFi obviously
 * Card reader
