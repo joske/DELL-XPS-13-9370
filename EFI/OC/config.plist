@@ -16,25 +16,9 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-DELL.aml</string>
-				<key>Path</key>
-				<string>SSDT-DELL.aml</string>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>SSDT-EC-USBX-LAPTOP.aml</string>
 				<key>Path</key>
 				<string>SSDT-EC-USBX-LAPTOP.aml</string>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-GPRW.aml</string>
-				<key>Path</key>
-				<string>SSDT-GPRW.aml</string>
 				<key>Enabled</key>
 				<true/>
 			</dict>
@@ -48,33 +32,9 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-PLUG.aml</string>
+				<string>SSDT-PNLF-CFL.aml</string>
 				<key>Path</key>
-				<string>SSDT-PLUG.aml</string>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-PNLF.aml</string>
-				<key>Path</key>
-				<string>SSDT-PNLF.aml</string>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-TPDX.aml</string>
-				<key>Path</key>
-				<string>SSDT-TPDX.aml</string>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-TYPC.aml</string>
-				<key>Path</key>
-				<string>SSDT-TYPC.aml</string>
+				<string>SSDT-PNLF-CFL.aml</string>
 				<key>Enabled</key>
 				<true/>
 			</dict>
@@ -83,14 +43,6 @@
 				<string>SSDT-XOSI.aml</string>
 				<key>Path</key>
 				<string>SSDT-XOSI.aml</string>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-YTBT.aml</string>
-				<key>Path</key>
-				<string>SSDT-YTBT.aml</string>
 				<key>Enabled</key>
 				<true/>
 			</dict>
@@ -947,7 +899,6 @@
 	<dict>
 		<key>BlessOverride</key>
 		<array>
-			<string>\EFI\ubuntu\grubx64.efi</string>
 		</array>
 		<key>Boot</key>
 		<dict>
@@ -956,7 +907,7 @@
 			<key>HibernateMode</key>
 			<string>None</string>
 			<key>HideAuxiliary</key>
-			<true/>
+			<false/>
 			<key>PickerAttributes</key>
 			<integer>1</integer>
 			<key>PickerAudioAssist</key>
@@ -970,7 +921,7 @@
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
-			<integer>5</integer>
+			<integer>10</integer>
 		</dict>
 		<key>Debug</key>
 		<dict>
@@ -1001,11 +952,11 @@
 				<key>Comment</key>
 				<string>Not signed for security reasons</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Name</key>
-				<string>CustomOS</string>
+				<string>Ubuntu</string>
 				<key>Path</key>
-				<string>PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)/NVMe(0x1,11-22-33-44-55-66-77-88)/HD(1,GPT,00000000-0000-0000-0000-000000000000,0x800,0x64000)/\EFI\BOOT\BOOTX64.EFI</string>
+				<string>PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)/NVMe(0x1,4A-C5-21-70-81-2E-E4-AC)/HD(1,GPT,806CE1B5-014A-4051-90FA-B849560327C6,0x800,0x177000)/\EFI\ubuntu\grubx64.efi</string>
 				<key>TextMode</key>
 				<false/>
 			</dict>
