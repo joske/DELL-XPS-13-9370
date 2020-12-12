@@ -17,6 +17,7 @@ OpenCore 0.6.4 EFI files for the Dell XPS 13 9370
 * touchpad + all gestures
 * Onboard audio (USB & HDMI audio also work)
 * sleep/wake
+* internal bluetooth
 * USB WiFi Edimax 7822ULC (Using chris1111's driver at https://github.com/chris1111/Wireless-USB-Adapter)
 * USB hotplugging (at least when using a powered USB C dock)
 * 2 external screens 2560x1440@60Hz (via thunderbolt USB dock) - one via HDMI one via DP
