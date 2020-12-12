@@ -2,11 +2,12 @@
 
 OpenCore 0.6.4 EFI files for the Dell XPS 13 9370
 
-* i7 8550U (UHD 630)
+* i7 8550U (UHD 630 claimed by marketing - linux lspci says: Intel Corporation UHD Graphics 620 [8086:5917] (rev 07))
 * 13 inch FHD non-touch
 * 16GB RAM
 * 512 GB skhynix NVMe SSD
-* Broadcom WiFi (soldered)
+* Qualcomm Atheros QCA6174 802.11ac WiFi (soldered)
+* Intel Corporation UHD Graphics 620 [8086:5917] (rev 07)
 * dual boots with Linux
 
 ## What works
