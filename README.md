@@ -19,7 +19,6 @@ Updated to Big Sur
 * brightness
 * touchpad + all gestures
 * Onboard audio (USB & HDMI audio also work)
-* sleep/wake
 * internal bluetooth
 * Card reader using https://github.com/cholonam/Sinetek-rtsx
 * USB WiFi Edimax 7822ULC (Using chris1111's driver at https://github.com/chris1111/Wireless-USB-Adapter)
@@ -27,6 +26,7 @@ Updated to Big Sur
 * 2 external screens 2560x1440@60Hz (via thunderbolt USB dock) - one via HDMI one via DP
 
 ## What doesn't (yet)
+* sleep/wake broken: reboots at resume
 * brightness keys, but Fn-S Fn-B work to control the brightness
 * internal WiFi obviously
 * Webcam
