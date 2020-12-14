@@ -14,6 +14,7 @@ OpenCore 0.6.4 EFI files for the Dell XPS 13 9370
 * Boots fine
 * Power Management
 * Video acceleration
+* brightness
 * touchpad + all gestures
 * Onboard audio (USB & HDMI audio also work)
 * sleep/wake
@@ -23,7 +24,7 @@ OpenCore 0.6.4 EFI files for the Dell XPS 13 9370
 * 2 external screens 2560x1440@60Hz (via thunderbolt USB dock) - one via HDMI one via DP
 
 ## What doesn't (yet)
-* brightness keys (brightness in general doesn't do anything)
+* brightness keys, but Fn-S Fn-B work to control the brightness
 * internal WiFi obviously
 * Card reader
 * Webcam
