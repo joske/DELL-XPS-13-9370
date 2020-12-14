@@ -2,6 +2,8 @@
 
 OpenCore 0.6.4 EFI files for the Dell XPS 13 9370
 
+Updated to Big Sur
+
 * i7 8550U (UHD 630 claimed by marketing - linux lspci says: Intel Corporation UHD Graphics 620 [8086:5917] (rev 07))
 * 13 inch FHD non-touch
 * 16GB RAM
