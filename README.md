@@ -19,12 +19,12 @@ OpenCore 0.6.4 EFI files for the Dell XPS 13 9370
 * Onboard audio (USB & HDMI audio also work)
 * sleep/wake
 * internal bluetooth
+* Card reader using https://github.com/cholonam/Sinetek-rtsx
 * USB WiFi Edimax 7822ULC (Using chris1111's driver at https://github.com/chris1111/Wireless-USB-Adapter)
-* USB hotplugging (at least when using a powered USB C dock)
+* USB hotplugging (at least when using a powered USB C dock - does not work without dock)
 * 2 external screens 2560x1440@60Hz (via thunderbolt USB dock) - one via HDMI one via DP
 
 ## What doesn't (yet)
 * brightness keys, but Fn-S Fn-B work to control the brightness
 * internal WiFi obviously
-* Card reader
 * Webcam
