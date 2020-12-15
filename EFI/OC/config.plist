@@ -1205,7 +1205,7 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02941270QXJH4R1M</string>
+			<string>blah blah</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
@@ -1217,9 +1217,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02ZJ05LJHCD</string>
+			<string>blah blah</string>
 			<key>SystemUUID</key>
-			<string>B1BFD262-9FFB-4887-B1F2-1F233D436D80</string>
+			<string>blah blah</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
