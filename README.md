@@ -18,7 +18,7 @@ Updated to Big Sur
 * Video acceleration
 * brightness
 * touchpad + all gestures
-* Onboard audio (USB & HDMI audio also work)
+* Onboard audio using layout id 22 (USB & HDMI audio also work)
 * internal bluetooth
 * sleep/wake
 * Card reader using https://github.com/cholonam/Sinetek-rtsx
@@ -30,3 +30,30 @@ Updated to Big Sur
 * brightness keys, but Fn-S Fn-B work to control the brightness (so not a big deal).
 * internal WiFi obviously
 * Webcam (shows up in IOReg but black screen).
+
+## Sleep
+Make sure to disable disk sleep, to avoid issues with resuming from sleep.
+I'm using the following power settings:
+```
+$ pmset -g
+System-wide power settings:
+Currently in use:
+ standbydelaylow      10800
+ standby              0
+ halfdim              1
+ hibernatefile        /var/vm/sleepimage
+ proximitywake        0
+ powernap             0
+ gpuswitch            2
+ disksleep            0
+ standbydelayhigh     86400
+ sleep                10
+ hibernatemode        0
+ ttyskeepawake        0
+ displaysleep         20
+ tcpkeepalive         0
+ highstandbythreshold 50
+ lidwake              1
+```
+
+ halfdim              1
