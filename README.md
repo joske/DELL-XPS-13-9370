@@ -55,5 +55,4 @@ Currently in use:
  highstandbythreshold 50
  lidwake              1
 ```
-
- halfdim              1
+ 
