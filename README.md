@@ -1,5 +1,7 @@
 # DELL-XPS-13-9370
 
+*I will not update this anymore as I no longer have the xps 13*
+
 OpenCore 0.6.4 EFI files for the Dell XPS 13 9370
 
 Updated to Big Sur
